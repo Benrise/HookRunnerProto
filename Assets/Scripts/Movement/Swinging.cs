@@ -11,7 +11,7 @@ public class Swinging : MonoBehaviour
     private PlayerMovement pm;
 
     [Header("Swinging")]
-    private float maxSwingDistance = 25f;
+    public float maxSwingDistance = 25f;
     private Vector3 swingPoint;
     private SpringJoint joint;
 
@@ -44,6 +44,16 @@ public class Swinging : MonoBehaviour
         CheckForSwingPoints();
 
         if (joint != null) OdmGearMovement();
+
+        if (pm.swinging){
+            Vector3 directionToPoint = swingPoint - transform.position;
+            rb.AddForce(directionToPoint.normalized * forwardThrustForce * Time.deltaTime);
+
+            float distanceFromPoint = Vector3.Distance(transform.position, swingPoint);
+
+            joint.maxDistance = distanceFromPoint * 0.8f;
+            joint.minDistance = distanceFromPoint * 0.25f;
+        }
     }
 
     private void LateUpdate()
@@ -142,24 +152,24 @@ public class Swinging : MonoBehaviour
         if (Input.GetKey(KeyCode.W)) rb.AddForce(orientation.forward * horizontalThrustForce * Time.deltaTime);
 
         // shorten cable
-        if (Input.GetKey(KeyCode.Space))
-        {
-            Vector3 directionToPoint = swingPoint - transform.position;
-            rb.AddForce(directionToPoint.normalized * forwardThrustForce * Time.deltaTime);
+        // if (Input.GetKey(KeyCode.Space))
+        // {
+        //     Vector3 directionToPoint = swingPoint - transform.position;
+        //     rb.AddForce(directionToPoint.normalized * forwardThrustForce * Time.deltaTime);
 
-            float distanceFromPoint = Vector3.Distance(transform.position, swingPoint);
+        //     float distanceFromPoint = Vector3.Distance(transform.position, swingPoint);
 
-            joint.maxDistance = distanceFromPoint * 0.8f;
-            joint.minDistance = distanceFromPoint * 0.25f;
-        }
+        //     joint.maxDistance = distanceFromPoint * 0.8f;
+        //     joint.minDistance = distanceFromPoint * 0.25f;
+        // }
         // extend cable
-        if (Input.GetKey(KeyCode.S))
-        {
-            float extendedDistanceFromPoint = Vector3.Distance(transform.position, swingPoint) + extendCableSpeed;
+        // if (Input.GetKey(KeyCode.S))
+        // {
+        //     float extendedDistanceFromPoint = Vector3.Distance(transform.position, swingPoint) + extendCableSpeed;
 
-            joint.maxDistance = extendedDistanceFromPoint * 0.8f;
-            joint.minDistance = extendedDistanceFromPoint * 0.25f;
-        }
+        //     joint.maxDistance = extendedDistanceFromPoint * 0.8f;
+        //     joint.minDistance = extendedDistanceFromPoint * 0.25f;
+        // }
     }
 
     private Vector3 currentGrapplePosition;
