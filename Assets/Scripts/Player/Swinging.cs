@@ -38,6 +38,7 @@ public class Swinging : MonoBehaviour
 
     private void Update()
     {
+        if (pm.isGameStopped) return;
         if (Input.GetKeyDown(swingKey)) StartSwing();
         if (Input.GetKeyUp(swingKey)) StopSwing();
 

@@ -9,6 +9,15 @@ public class PlayerMovement : MonoBehaviour
     [Header("Assingables")]
     public Transform playerCam;
     public Transform orientation;
+    public bool isGameStopped = false;
+    private int score;
+    
+    [Header("Scoring")]
+    private float distanceMoved;
+    private float distanceTraveled;
+    private Vector3 lastPosition;
+    float zPosition;
+    private float recordZPosition = 0f;
 
     [Header("Rotation & look")]
     private float xRotation;
@@ -20,8 +29,8 @@ public class PlayerMovement : MonoBehaviour
     public float walkSpeed;
     public float sprintSpeed;
     public float swingSpeed;
-
     public float groundDrag;
+    
 
     [Header("Jumping")]
     public float jumpForce;
@@ -84,10 +93,23 @@ public class PlayerMovement : MonoBehaviour
         playerScale = transform.localScale;
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
+
+        distanceTraveled = 0f;
+        lastPosition = transform.position;
     }
 
     private void Update()
     {
+        if (isGameStopped){
+            Cursor.lockState = CursorLockMode.Confined;
+            Cursor.visible = true;
+            return;
+        }
+        else {
+            Cursor.lockState = CursorLockMode.Locked;
+            Cursor.visible = false;
+        }
+        if (isGameStopped) return;
         // ground check
         grounded = Physics.Raycast(transform.position, Vector3.down, playerHeight * 0.5f + 0.2f, whatIsGround);
 
@@ -108,6 +130,20 @@ public class PlayerMovement : MonoBehaviour
     private void FixedUpdate()
     {
         MovePlayer();
+        zPosition = transform.position.z;
+        if (zPosition > recordZPosition)
+        {
+            distanceMoved = zPosition - recordZPosition;
+            if (distanceMoved > 0)
+            {
+                int newScore = Mathf.FloorToInt(distanceTraveled / 10);
+                distanceTraveled += distanceMoved;
+                recordZPosition = zPosition;
+                score = newScore;
+                text_score.text = score.ToString();
+            }
+        }
+        
     }
 
     private float desiredX;
@@ -351,7 +387,7 @@ public class PlayerMovement : MonoBehaviour
     }
 
     #region Text & Debugging
-
+    public TMP_Text text_score;
     public TextMeshProUGUI text_speed;
     public TextMeshProUGUI text_mode;
     private void TextStuff()

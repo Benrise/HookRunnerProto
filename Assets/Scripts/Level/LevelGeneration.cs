@@ -5,7 +5,7 @@ using UnityEngine;
 public class LevelGeneration : MonoBehaviour
 {
     public GameObject[] levels;
-    private int zPos = 0;
+    private int zPos = 281;
     private bool creatingLevel = false;
     private int levelNumber;
     private GameObject spawnedLevel;
