@@ -10,7 +10,7 @@ public class PlayerMovement : MonoBehaviour
     public Transform playerCam;
     public Transform orientation;
     public bool isGameStopped = false;
-    private int score;
+    public int score;
     
     [Header("Scoring")]
     private float distanceMoved;
@@ -140,7 +140,9 @@ public class PlayerMovement : MonoBehaviour
                 distanceTraveled += distanceMoved;
                 recordZPosition = zPosition;
                 score = newScore;
-                text_score.text = score.ToString();
+                foreach (TMP_Text item in texts_score){
+                    item.text = score.ToString();
+                }
             }
         }
         
@@ -387,7 +389,7 @@ public class PlayerMovement : MonoBehaviour
     }
 
     #region Text & Debugging
-    public TMP_Text text_score;
+    public TMP_Text[] texts_score;
     public TextMeshProUGUI text_speed;
     public TextMeshProUGUI text_mode;
     private void TextStuff()

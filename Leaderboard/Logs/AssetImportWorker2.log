@@ -1,0 +1,315 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.11f1 (d00248457e15) revision 13632072'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Professional' Language: 'en' Physical Memory: 16281 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.11f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+D:/Education/4 курс 1 сем/Мультиплеерный Unity/Practic 2/HookRunner/Leaderboard
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+51980
+Successfully changed project path to: D:/Education/4 курс 1 сем/Мультиплеерный Unity/Practic 2/HookRunner/Leaderboard
+D:/Education/4 курс 1 сем/Мультиплеерный Unity/Practic 2/HookRunner/Leaderboard
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [13452] Host "[IP] 192.168.1.8 [Port] 0 [Flags] 2 [Guid] 1614732632 [EditorId] 1614732632 [Version] 1048832 [Id] WindowsEditor(7,BenrisePC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [13452] Host "[IP] 192.168.1.8 [Port] 0 [Flags] 2 [Guid] 1614732632 [EditorId] 1614732632 [Version] 1048832 [Id] WindowsEditor(7,BenrisePC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
+Refreshing native plugins compatible for Editor in 4.47 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.11f1 (d00248457e15)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.11f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Education/4 курс 1 сем/Мультиплеерный Unity/Practic 2/HookRunner/Leaderboard/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 770 (ID=0x1184)
+    Vendor:   NVIDIA
+    VRAM:     2007 MB
+    Driver:   30.0.14.7430
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.11f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.11f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56232
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.11f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.008083 seconds.
+- Loaded All Assemblies, in  0.330 seconds
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.242 seconds
+Domain Reload Profiling: 571ms
+	BeginReloadAssembly (95ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (54ms)
+	LoadAllAssembliesAndSetupDomain (137ms)
+		LoadAssemblies (93ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (135ms)
+			TypeCache.Refresh (134ms)
+				TypeCache.ScanAssembly (120ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (243ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (184ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (14ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (120ms)
+			ProcessInitializeOnLoadMethodAttributes (43ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.563 seconds
+Refreshing native plugins compatible for Editor in 1.49 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.516 seconds
+Domain Reload Profiling: 1077ms
+	BeginReloadAssembly (135ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (20ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (37ms)
+	LoadAllAssembliesAndSetupDomain (347ms)
+		LoadAssemblies (257ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (166ms)
+			TypeCache.Refresh (149ms)
+				TypeCache.ScanAssembly (134ms)
+			ScanForSourceGeneratedMonoScriptInfo (13ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (516ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (377ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (56ms)
+			ProcessInitializeOnLoadAttributes (278ms)
+			ProcessInitializeOnLoadMethodAttributes (22ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 2.37 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3110 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (57.3 KB). Loaded Objects now: 3572.
+Memory consumption went from 125.1 MB to 125.0 MB.
+Total: 3.329200 ms (FindLiveObjects: 0.252000 ms CreateObjectMapping: 0.246600 ms MarkObjects: 2.717000 ms  DeleteObjects: 0.112800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 220250.542361 seconds.
+  path: Assets/LeaderboardCreator/Scripts/Utils/ConstantVariables.cs
+  artifactKey: Guid(8ba37bb8809248c793a754c692830a1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LeaderboardCreator/Scripts/Utils/ConstantVariables.cs using Guid(8ba37bb8809248c793a754c692830a1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8efd06f7044970162b82b14d13045bd') in 0.002237 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.001240 seconds.
+  path: Assets/LeaderboardCreator/Scripts/Utils/LeaderboardCreatorConfig.cs
+  artifactKey: Guid(f004774a7efa44eab4c0e289b68f484f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LeaderboardCreator/Scripts/Utils/LeaderboardCreatorConfig.cs using Guid(f004774a7efa44eab4c0e289b68f484f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2262262763ddf66aa6692bf2a4ddd76') in 0.000346 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.001220 seconds.
+  path: Assets/LeaderboardCreator/Scripts/Utils/ExtensionMethods.cs
+  artifactKey: Guid(07c46008f49546899a5404ae5730f8e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LeaderboardCreator/Scripts/Utils/ExtensionMethods.cs using Guid(07c46008f49546899a5404ae5730f8e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db14a052c6583ab94438f38ad981f9f1') in 0.000241 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.001516 seconds.
+  path: Assets/LeaderboardCreator/Scripts/Demo/LeaderboardShowcase.cs
+  artifactKey: Guid(12696615b7625f04baae0bf7809c049d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LeaderboardCreator/Scripts/Demo/LeaderboardShowcase.cs using Guid(12696615b7625f04baae0bf7809c049d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cd77cbdf4974412d663e3acc5f75bfe') in 0.000220 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.001228 seconds.
+  path: Assets/LeaderboardCreator/Scripts/Main/LeaderboardCreatorBehaviour.cs
+  artifactKey: Guid(1844164b113842008a02b38fc49304f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LeaderboardCreator/Scripts/Main/LeaderboardCreatorBehaviour.cs using Guid(1844164b113842008a02b38fc49304f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d18ba23c931c8b84db5c3109dcd2f69') in 0.000265 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.001124 seconds.
+  path: Assets/LeaderboardCreator/Scripts/Main/LeaderboardReference.cs
+  artifactKey: Guid(237dfda88f2848018d42e238dec5b66c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LeaderboardCreator/Scripts/Main/LeaderboardReference.cs using Guid(237dfda88f2848018d42e238dec5b66c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8c930784cb16143529fa4a7ebbf9823') in 0.000221 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.001209 seconds.
+  path: Assets/LeaderboardCreator/Editor/LeaderboardCreatorWindow.cs
+  artifactKey: Guid(e80aaf6d96cc45b692e96e66380889ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LeaderboardCreator/Editor/LeaderboardCreatorWindow.cs using Guid(e80aaf6d96cc45b692e96e66380889ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbe647709a3be504e1c003849dc01b6b') in 0.000204 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.001227 seconds.
+  path: Assets/LeaderboardCreator/Scripts/Enums/TimePeriodType.cs
+  artifactKey: Guid(b9963a6d153c4971ab8b79eeb542e7bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LeaderboardCreator/Scripts/Enums/TimePeriodType.cs using Guid(b9963a6d153c4971ab8b79eeb542e7bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37b58f71d06b0e59a3278a0efa94faf9') in 0.000237 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.001204 seconds.
+  path: Assets/LeaderboardCreator/Scripts/Enums/Routes.cs
+  artifactKey: Guid(72c5e1d220e94059b6b1cf3f7b99f95a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LeaderboardCreator/Scripts/Enums/Routes.cs using Guid(72c5e1d220e94059b6b1cf3f7b99f95a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '242eebf6aca8bd6b332f1996a0c58805') in 0.000224 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.001140 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader
+  artifactKey: Guid(fe393ace9b354375a9cb14cdbbc28be4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader using Guid(fe393ace9b354375a9cb14cdbbc28be4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '643c3881714037fc3adcc25912c581ef') in 0.008105 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.002421 seconds.
+  path: Assets/LeaderboardCreator/Scripts/Models/LeaderboardSearchQuery.cs
+  artifactKey: Guid(29284a0880dd4054ac8294cc917db6f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LeaderboardCreator/Scripts/Models/LeaderboardSearchQuery.cs using Guid(29284a0880dd4054ac8294cc917db6f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c95421d1d5da264baba38ceb493594dd') in 0.000293 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.001282 seconds.
+  path: Assets/LeaderboardCreator/Scripts/Main/Leaderboards.cs
+  artifactKey: Guid(8ff334e8988744eea42cf12786ee20d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LeaderboardCreator/Scripts/Main/Leaderboards.cs using Guid(8ff334e8988744eea42cf12786ee20d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fe5228be485efdf292ce00dacf3fd91') in 0.000271 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.003306 seconds.
+  path: Assets/LeaderboardCreator/Scripts/Utils/Requests.cs
+  artifactKey: Guid(82185ae765074638b9962f5fbb356776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LeaderboardCreator/Scripts/Utils/Requests.cs using Guid(82185ae765074638b9962f5fbb356776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0625ca1539a5ebc6c86e95739ea2d994') in 0.000271 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.001141 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc
+  artifactKey: Guid(3997e2241185407d80309a82f9148466) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc using Guid(3997e2241185407d80309a82f9148466) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb17b39ab37ff5c4a0c347358e9d790f') in 0.000574 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.001172 seconds.
+  path: Assets/LeaderboardCreator/Scripts/Enums/StatusCode.cs
+  artifactKey: Guid(614196160841412b874fa7173e5a3c83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LeaderboardCreator/Scripts/Enums/StatusCode.cs using Guid(614196160841412b874fa7173e5a3c83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e02885d1cd01dc941f6be706fcaa398f') in 0.000250 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.004144 seconds.
+  path: Assets/LeaderboardCreator/Scripts/Main/LeaderboardCreator.cs
+  artifactKey: Guid(3dd7127c7a2c45bfa590eb249427722d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LeaderboardCreator/Scripts/Main/LeaderboardCreator.cs using Guid(3dd7127c7a2c45bfa590eb249427722d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7b59448309466e5723c34a02e1327e9') in 0.000325 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0

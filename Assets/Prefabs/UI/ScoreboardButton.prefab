@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 1171027292484592461}
   - component: {fileID: 3858372826747413053}
   - component: {fileID: 2812162795533078031}
-  - component: {fileID: -7595431983570817454}
   m_Layer: 5
   m_Name: ScoreboardButton
   m_TagString: Untagged
@@ -122,18 +121,6 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &-7595431983570817454
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5894276894798151875}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 446505bd53aa7064384032d859d652a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &6214702434861843264
 GameObject:
   m_ObjectHideFlags: 0
