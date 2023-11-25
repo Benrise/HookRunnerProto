@@ -2,10 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using Unity.Netcode;
 
-public class PlayerMovement : MonoBehaviour
+public class PlayerMovement : NetworkBehaviour
 {
-
     [Header("Assingables")]
     public Transform playerCam;
     public Transform orientation;
@@ -91,8 +91,8 @@ public class PlayerMovement : MonoBehaviour
         readyToJump = true;
 
         playerScale = transform.localScale;
-        Cursor.lockState = CursorLockMode.Locked;
-        Cursor.visible = false;
+        // Cursor.lockState = CursorLockMode.Locked;
+        // Cursor.visible = false;
 
         distanceTraveled = 0f;
         lastPosition = transform.position;
@@ -100,16 +100,16 @@ public class PlayerMovement : MonoBehaviour
 
     private void Update()
     {
-        if (isGameStopped){
-            Cursor.lockState = CursorLockMode.Confined;
-            Cursor.visible = true;
-            return;
-        }
-        else {
-            Cursor.lockState = CursorLockMode.Locked;
-            Cursor.visible = false;
-        }
-        if (isGameStopped) return;
+        // if (isGameStopped){
+        //     Cursor.lockState = CursorLockMode.Confined;
+        //     Cursor.visible = true;
+        //     return;
+        // }
+        // else {
+        //     Cursor.lockState = CursorLockMode.Locked;
+        //     Cursor.visible = false;
+        // }
+        // if (isGameStopped) return;
         // ground check
         grounded = Physics.Raycast(transform.position, Vector3.down, playerHeight * 0.5f + 0.2f, whatIsGround);
 
@@ -129,6 +129,7 @@ public class PlayerMovement : MonoBehaviour
 
     private void FixedUpdate()
     {
+        if (!IsOwner) return;
         MovePlayer();
         zPosition = transform.position.z;
         if (zPosition > recordZPosition)
